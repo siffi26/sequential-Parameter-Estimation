@@ -1,0 +1,6 @@
+Sequential estimate the mean and variance from the data given from the univariate gaussian data generator (1.a).
+        NOTE: you should derive the recursive function of mean and variance based on the sequential estimation. 
+        INPUT: m, s as in (1.a)
+        FUNCTION: call (1.a) to get a new data point from N(m, s), use sequential estimation to find the current estimates to m and s., repeat until the estimates converge.
+        OUTPUT: print the new data point and the current estimates of m and s in each iteration.
+        HINT: https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance#Online_algorithm
